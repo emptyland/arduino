@@ -1,0 +1,34 @@
+# See: http://code.google.com/p/arduino/wiki/Platforms
+
+menu.cpu=Processor
+
+##############################################################
+
+
+digispark-pro.name=Digispark Pro (16 Mhz)
+digispark-pro.upload.using=micronucleusprog
+digispark-pro.upload.protocol=usb
+digispark-pro.upload.tool=micronucleus
+digispark-pro.upload.maximum_size=14844
+digispark-pro.build.mcu=attiny167
+digispark-pro.build.f_cpu=16000000L
+digispark-pro.build.board=AVR_DIGISPARKPRO
+digispark-pro.build.core=pro
+digispark-pro.build.variant=pro
+digispark-pro.upload.wait_for_upload_port = false
+digispark-pro.upload.use_1200bps_touch = false
+digispark-pro.upload.disable_flushing = false
+
+digispark-tiny.name=Digispark (Default - 16.5mhz)
+digispark-tiny.upload.using=micronucleusprog
+digispark-tiny.upload.protocol=usb
+digispark-tiny.upload.tool=micronucleus
+digispark-tiny.upload.maximum_size=6012
+digispark-tiny.build.mcu=attiny85
+digispark-tiny.build.f_cpu=16500000L
+digispark-tiny.build.board=AVR_DIGISPARK
+digispark-tiny.build.core=tiny
+digispark-tiny.build.variant=digispark
+digispark-tiny.upload.wait_for_upload_port = false
+digispark-tiny.upload.use_1200bps_touch = false
+digispark-tiny.upload.disable_flushing = false

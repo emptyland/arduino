@@ -149,13 +149,13 @@ void setup() {
   acc.init(0);
 
   Serial.begin(9600);
-  //  clock.second = 0;
-  //  clock.minute = 42;
-  //  clock.hour = 16;
-  //  clock.dayOfMonth = 24;
-  //  clock.month = 1;
-  //  clock.year = 2015;
-  //  clock.setTime();
+//  clock.second = 0;
+//  clock.minute = 05;
+//  clock.hour = 11;
+//  clock.dayOfMonth = 29;
+//  clock.month = 8;
+//  clock.year = 2015;
+//  clock.setTime();
 }
 
 
